@@ -1,0 +1,73 @@
+.header {
+    display:flex;
+    align-items: center;
+    background-color: #0088C2;
+    height: 20px;
+    width: auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  
+  p {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px auto;
+    max-width: 80%;
+  }
+  
+  .botao {
+    display: flex;
+    padding: 20px;
+    background-color: #0088C2;
+    margin: 10px;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  
+  a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0 auto;
+  }
+  
+  .imagem img {
+    max-width: 100%;
+    border: 10px solid #0088C2;
+  }
+  
+  .imagem {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .texto {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .texto p {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .imagem {
+      max-width: 80%;
+    }
+  }
+  
+  .footer {
+    background-color: #0088C2;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+  }
+  
